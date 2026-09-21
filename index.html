@@ -113,6 +113,8 @@ dl{display:grid; grid-template-columns:auto 1fr; gap:0; margin:4px 0 0; font-siz
   line-height:1.6}
 dt{color:var(--faint); padding:9px 22px 9px 0; border-top:1px solid var(--line); white-space:nowrap}
 dd{margin:0; padding:9px 0; border-top:1px solid var(--line); color:var(--body)}
+dd a{color:var(--body); text-decoration:none; border-bottom:1px solid var(--line)}
+dd a:hover{color:var(--accent); border-color:currentColor}
 dl>dt:first-of-type,dl>dt:first-of-type+dd{border-top:0}
 @media(max-width:520px){
   dl{grid-template-columns:1fr}
